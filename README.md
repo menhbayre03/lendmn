@@ -1,2 +1,0 @@
-# lendmn
-lend.mn
