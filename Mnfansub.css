@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   background-color: #393939;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_nav{
+  display: grid;
+  gap: 1rem;
+  margin: auto;
+  grid-template-columns: repeat(4,284px);
+  grid-template-rows: repeat(3,182px);
+}
+@media (max-width:1217px){
+  .header_nav{
+      grid-template-columns: repeat(4,260px);
+      grid-template-rows: repeat(3,182px);
+  }
+}
+@media (max-width:1120px){
+  .header_nav{
+      grid-template-columns: repeat(4,240px);
+      grid-template-rows: repeat(3,182px);
+  }
+}
+@media (max-width:1028px){
+  .header_nav{
+      grid-template-columns: repeat(3,284px);
+      grid-template-rows: repeat(4,182px);
+  }
+}
+@media (max-width:900px){
+  .header_nav{
+      grid-template-columns: repeat(3,260px);
+      grid-template-rows: repeat(4,182px);
+  }
+}
+@media (max-width:820px){
+  .header_nav{
+      grid-template-columns: repeat(3,240px);
+      grid-template-rows: repeat(4,182px);
+  }
+}
+@media (max-width:768px){
+  .header_nav{
+      grid-template-columns: repeat(2,280px);
+      grid-template-rows: repeat(6,182px);
+  }
+}
+@media (max-width:600px){
+  .header_nav{
+      grid-template-columns: repeat(2,240px);
+      grid-template-rows: repeat(6,182px);
+  }
+}
+@media (max-width:540px){
+  .header_nav{
+      grid-template-columns: 320px;
+      grid-template-rows: repeat(12,182px);
+  }
+}
+.caption{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 100%);
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  transition: .3s ease-in;
+}
+
+.caption:hover {
+  color: #00b3ff;
+}
+
+.category{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 100%);
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  opacity: 0;
+  transition: .3s ease-in;
+}
+
+.category:hover{
+  color: #00b3ff;
+  opacity: 5;
+}
+
+.header_nav_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid #3939394d;
+}
+.ikons i{
+  transition: .2s ease-in;
+  color: #999;
+}
+
+
+.ikons i:hover{
+  color: #00b3ff;
+}
+
+.tsaash{
+  width: 90%;
+  height: 50px;
+  background-color: #161616;
+  border-radius: 20px;
+  transition: .3s ease-in;
+  margin: auto;
+  margin-top: 2rem;
+}
+.tsaash p{
+  text-align: center;
+  color: white;
+  padding: 13px;
+}
+
+.tsaash:hover{
+  background-color: #00b3ff;
+  color: white;
+  cursor: pointer;
+}
+
+.zoro{
+    width: 65%;
+    height: 180px;
+}
+.header_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 90%px;
+    grid-template-rows: 50px 268px;
+}
+
+.content_nav i{
+  transition: .2s ease-in;
+  color: #ccc;
+}
+
+.content_nav i:hover{
+    color: #00b3ff;
+}
+.contentuud{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6,178px);
+    grid-template-rows: 268px;
+    margin: auto;
+}
+@media (max-width:1227px){
+  .contentuud{
+      grid-template-columns: repeat(6, 150px);
+      grid-template-rows: 268px;
+  }
+}
+@media (max-width:968px){
+  .contentuud{
+      grid-template-columns: repeat(6, 120px);
+      grid-template-rows: 268px;
+  }
+}
+@media (max-width:820px){
+  .contentuud{
+      grid-template-columns: repeat(6, 110px);
+      grid-template-rows: 268px;
+  }
+}
+@media (max-width:768px){
+  .contentuud{
+      grid-template-columns: repeat(3, 140px);
+      grid-template-rows: repeat(2,268px);
+      overflow: hidden;
+  }
+}
+@media (max-width:630px){
+  .contentuud{
+      grid-template-columns: repeat(3, 140px);
+      grid-template-rows: repeat(2,268px);
+      overflow: hidden;
+  }
+}
+@media (max-width:480px){
+  .contentuud{
+      grid-template-columns: repeat(2, 150px);
+      grid-template-rows: repeat(3,268px);
+      overflow: hidden;
+  }
+}
+.contentuud_nav{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid #3939394d;
+}
+
+.footer ul li{
+    color: #ccc;
+}
+.footer ul li:hover{
+    color: #00b3ff;
+}
