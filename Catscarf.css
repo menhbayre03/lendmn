@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: white;
+}
+.header_container{
+    width: 100%;
+    height: 620px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/t/7/assets/img_homepage_slider1.jpg?v=839847293968337857);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    width: 100%;
+    height: 111px;
+}
+.menu ul{
+    width:600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+}
+@media(max-width:768px){
+    .menu ul{
+        display: none;
+    }
+}
+
+.menu ul li{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 2rem;
+    list-style: none;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+.menu ul li:hover{
+    color: yellow;
+}
+.ikons{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 1rem;
+}
+.ikons i{
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 1000px;
+    height: 250px;
+    margin: auto;
+    margin-top: 6rem;
+    overflow: hidden;
+}
+
+.section_child{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2,100px);
+}
+
+.section_nav{
+    color: #fff;
+    margin: auto;
+    border-bottom: 1px solid #fff;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .5rem;
+}
+@media (max-width:1000px){
+    .section{
+        width: 800px;
+    }
+    .section_nav{
+        font-size: 60px;
+    }
+}
+@media (max-width:812px){
+    .section{
+        width: 400px;
+    }
+    .section_nav{
+        font-size: 50px;
+    }
+    .section_navli h5{
+        margin-top: 2rem;
+        font-size: 30px;
+    }
+}
+@media (max-width:560px){
+    .section{
+        width: 300px;
+        overflow: hidden;
+    }
+    .section_nav{
+        font-size: 30px;
+        font-family: bold;
+    }
+    .section_navli h5{
+        margin-top: 2rem;
+        font-size: 25px;
+    }
+}
+.section_navli{
+    color: #fff;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .5rem;
+    text-shadow: 0 0 15px rgb(0 0 0 / 50%);
+}
+.monster{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    margin: auto;
+}
+.monster_child{
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(3,80px);
+    margin: auto;
+}
+@media (max-width:947px){
+    .monster_child{
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3,80px);
+    }
+}
+
+.monster_child2 P{
+    text-align: center;
+    font-size: 12px;
+    font-family: serif;
+    letter-spacing: .5rem;
+    color: #393939;
+    padding: 1rem;
+}
+.monster_child3 P{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    font-style: italic;
+    letter-spacing: .5rem;
+    color: #393939;
+    border-bottom: 1px solid #111;
+}
+.monster_child4 P{
+    text-align: center;
+    font-size: 22px;
+    font-family: bold;
+    color: #111;
+    padding: 1rem;
+}
+@media (max-width:947px){
+    .monster_child2 P{
+        font-size: 10px;
+    }
+    .monster_child3 P{
+        font-size: 35px;
+    }
+    .monster_child4 P{
+        font-size: 19px;
+    }
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+}
+.content_child{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 400px;
+    overflow: hidden;
+    margin: auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+@media (max-width:947px){
+    .content_child{
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3,400px);
+    }
+}
+
+.content_child2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/Clyde_brown_large.jpg?v=1379412622);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content_child2:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/Squirrel_kiwi_large.jpg?v=1523821881);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content_child2:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/Sid_Nancy_charcoal_coral_large.jpg?v=1379412706);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: rgba(29,26,25,.5);
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in;
+    opacity: 0;
+}
+.box:hover{
+    opacity: 5;
+}
+
+.box_child{
+    width: 230px;
+    height: 80px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+.box_child p{
+    color: white;
+    font-size: 24px;
+    font-family: serif;
+}
+/*  */
+
+
+
+.content_child3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/gus-blue_large.jpg?v=1390356518);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content_child3:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/mobius_pink_large.jpg?v=1397337924);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content_child3:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/cowl_bluegrey_large.jpg?v=1397336703);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* */
+
+.content_child4{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/the-ricky2_large.jpg?v=1429669877);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content_child4:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/the-felix-grey_large.jpg?v=1429670024);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content_child4:nth-child(3){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/theidk2_large.jpg?v=1429669930);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*  */
+
+.content_child_nav{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: 400px;
+    overflow: hidden;
+    margin: auto;
+    gap: 1rem;
+}
+@media (max-width:947px){
+    .content_child_nav{
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(2,400px);
+    }
+}
+
+
+.content_child5{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/the_hallows_eve_skull_bones_detail_large.jpg?v=1382844328);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.content_child5:nth-child(2){
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/4687/products/the_hallows_eve_solid_large.jpg?v=1381798982);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.minimal{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    margin: auto;
+}
+.content_premium{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: 500px;
+    overflow: hidden;
+    margin: auto;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.premium{
+    width: 100%;
+    height: 100%;
+}
+.premium img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.premium h3{
+    color: #393939;
+    padding-top: 7.425%;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+.premium p{
+    padding: 2.01406%;
+    padding-top: 3.7125%;
+    text-align: center;
+    font-size: 16px;
+    font-family: alice;
+    color: #444444;
+}
+
+.footer{
+    width: 1340px;
+    height: 270px;
+    background-color: #dba539;
+}
+.footer_nav ul li{
+    transition: .2s ease-in;
+}
+.footer_nav ul li:hover{
+    color: yellow;
+}
