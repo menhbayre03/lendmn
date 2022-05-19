@@ -1,0 +1,24 @@
+.Burger {
+    width: 500px;
+    height: 390px;
+    margin: auto;
+    text-align: center;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media(min-width: 1377px) {
+    .Burger {
+        width: 700px;
+        height: 492px;
+    }
+}
+
+@media(max-width: 800px) {
+    .Burger {
+        width: 96%;
+        height: 390px;
+    }
+}

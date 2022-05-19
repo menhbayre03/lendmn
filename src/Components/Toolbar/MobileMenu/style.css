@@ -1,0 +1,33 @@
+.mobile_menu {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  .mobile_menu div {
+    background-color: white;
+    height: 3px;
+    border-radius: 5px;
+  }
+  
+
+@media(min-width: 500px) {
+    .mobile_menu {
+        display: none;
+        padding: 0;
+    }
+}
+
+.sub_menu {
+    width: 40px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.84);
+    border-radius: 5px;
+}
+/* .sub_menu:nth-child(2){
+    display: none;
+} */

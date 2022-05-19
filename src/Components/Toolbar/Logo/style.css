@@ -1,0 +1,14 @@
+.logo {
+    width: 47px;
+    height: 35px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+@media(max-width: 500px) {
+    .logo {
+        position: fixed;
+        right: 0;
+    }
+}

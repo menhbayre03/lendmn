@@ -1,0 +1,40 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.check {
+    display: flex;
+    gap: 2rem;
+}
+
+.check_btn {
+    width: 35px;
+    height: 23px;
+    padding: 5px;
+    /* text-align: center; */
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in-out;
+}
+.check_btn:hover {
+    width: 42px;
+    height: 28px;
+    font-size: 28px;
+}
+
+.refuse {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.continue {
+    color: rgb(74, 181, 3);
+    cursor: pointer;
+}

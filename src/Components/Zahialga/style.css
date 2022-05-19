@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@400;500;600;700&display=swap');
+
+.zahialga {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Concert One', cursive;
+}
+
+
+.zahialganuud {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.orts {
+    width: 500px;
+    height: 45px;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 26px;
+}
